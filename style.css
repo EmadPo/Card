@@ -28,7 +28,7 @@ body {
   position: relative;
   width: 320px;
   height: 550px;
-  background-color: #DDDDDD;
+  background-color: #8f8f8f;
   border-radius: 20px;
   overflow: hidden;
   transition: 0.4s ease-in;
@@ -159,13 +159,13 @@ body {
   cursor: pointer;
 }
 .container .card .contentBx .color span:nth-child(2) {
-  background: #58a0e4;
+  background: #3e3c3e;
 }
 .container .card .contentBx .color span:nth-child(3) {
-  background: #58e492;
+  background: #eeece9;
 }
 .container .card .contentBx .color span:nth-child(4) {
-  background: #d858e4;
+  background: #ccc1af;
 }
 .container .card .contentBx a {
   display: inline-block;
