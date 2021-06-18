@@ -124,7 +124,7 @@ body {
 }
 .container .card .contentBx .size h3,
 .container .card .contentBx .color h3 {
-  color: #111;
+  color: rgb(255, 255, 255);
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
