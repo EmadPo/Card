@@ -1,0 +1,53 @@
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(117, 109, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(117, 109, 255, 1) 0%,
+    rgba(255, 47, 212, 1) 100%
+  );
+}
+.pembungkus-header {
+  position: fixed;
+}
+.pembungkus-header .pembuka {
+  font-family: 'poppins';
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+  transition: 0.4s ease-out;
+}
+.pembungkus-header .pembuka::after {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s ease-in;
+}
+.pembungkus-header .pembuka p {
+  font-size: 20px;
+  font-weight: 200;
+}
+@media (max-width: 400px) {
+  .pembungkus-header .pembuka p {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+@media (max-width: 480px) {
+  .container-header {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container-header {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .container-header {
+    max-width: 100%;
+  }
+}
