@@ -11,6 +11,12 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #131313;
+    -webkit-user-select: none; /* Chrome all / Safari all */
+  -khtml-user-select: none;
+  -user-drag: none;
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
 }
 .container {
   position: relative;
