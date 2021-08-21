@@ -1,0 +1,73 @@
+footer {
+  min-height: 30vh;
+  background-color: #004a99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'consolas';
+  position: relative;
+}
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  box-shadow: 0 0px 41px rgb(0 0 0 / 78%);
+}
+.icon {
+  position: relative;
+  display: flex;
+  padding: 0 0 10px 0;
+}
+.ul-footer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.li-footer {
+  display: inline;
+}
+
+.i-footer {
+  color: #fff;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 25px; /* ukuran icon */
+  transition: 0.2s ease-in-out;
+  border-radius: 10%;
+}
+.i-footer:hover {
+  padding: 7px;
+  color: #333;
+  background: #eee;
+  transition: 0.2s ease-in-out;
+  border-radius: 50%;
+}
+.lv-foot {
+  color: #cc4653;
+}
+.emadpo-p {
+  color: #fff;
+  font-size: 1rem;
+}
+@media (max-width: 480px) {
+  .i-footer {
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 0 0 4px;
+    font-size: 26px; /* ukuran icon */
+  }
+  .emadpo-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.emadpo-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.emadpo-link:hover {
+  color: #ffc107;
+}
