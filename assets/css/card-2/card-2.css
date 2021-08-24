@@ -24,7 +24,7 @@
   border-radius: 10px 10px 0 0;
 }
 .card-3 .card-4:hover .kotak.kotak-1 {
-  background: #2541b2;
+  background: #a4875a;
   transform: translateY(0); /* mengibah size card */
 }
 .card-3 .card-4 .kotak.kotak-1 .content {
