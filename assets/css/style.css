@@ -5,6 +5,10 @@
   padding: 0;
   transition: ease-in-out;
 }
+body{
+  -webkit-user-select: none; /* Chrome all / Safari all */
+
+}
 
 html {
   scroll-behavior: smooth;
