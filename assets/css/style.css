@@ -8,6 +8,7 @@
 body{
   -webkit-user-select: none; /* Chrome all / Safari all */
   -khtml-user-select: none;
+  -user-drag: none;
 }
 
 html {
