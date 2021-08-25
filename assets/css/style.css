@@ -9,6 +9,8 @@ body{
   -webkit-user-select: none; /* Chrome all / Safari all */
   -khtml-user-select: none;
   -user-drag: none;
+  -moz-user-select: none; /* Firefox all */
+
 }
 
 html {
